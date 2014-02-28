@@ -1,0 +1,12 @@
+.navbar-default {
+  background-color: rgba(255, 255, 255, .8);
+  border-bottom: 1px solid white;
+}
+
+article #progress-back {
+  height: 2px;
+}
+
+article #progress-bar {
+  height: 2px;
+}

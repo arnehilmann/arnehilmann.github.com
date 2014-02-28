@@ -1,100 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <title></title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
-    <style type="text/css">code{white-space: pre;}</style>
-    <link rel="stylesheet" href="photolib.css"/>
-  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
-  <!--[if lt IE 9]>
-  <script src="reveal.js/lib/js/html5shiv.js"></script>
-  <![endif]-->
+    <title>AH Photography - AH's Galleries</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="AH Photography"/>
+            <meta property="og:url" content="./index.html"/>
+            <meta property="og:description" content="Gallery of some of my Photos, rendered with Pelican/supersized"/>
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./static/custom.css" rel="stylesheet">
+
+
+
+
+
+
+
+    <!-- supersized stuff, should be at the end of page for faster loading?! -->
+    <link rel="stylesheet" href="theme/css/supersized.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="theme/css/supersized.shutter.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="theme/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="theme/js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="theme/js/supersized.shutter.min.js"></script>
+    <!-- /supersized stuff -->
+
+
+
+
+
+
 </head>
 <body>
-  <div class="reveal">
-    <div class="slides">
 
-
-<section id="ah-fotografie" class="slide level1 whitetext" data-background="images/00montage.png" data-background-size="contain">
-<h1>AH Fotografie</h1>
-</section>
-<section id="section" class="slide level1 whitetext" data-background="images/aus2_009.jpg" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-1" class="slide level1 whitetext" data-background="images/IMG_0553.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-2" class="slide level1 whitetext" data-background="images/IMG_0666.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-3" class="slide level1 whitetext" data-background="images/IMG_0757.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-4" class="slide level1 whitetext" data-background="images/IMG_0962.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-5" class="slide level1 whitetext" data-background="images/IMG_1110.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-6" class="slide level1 whitetext" data-background="images/IMG_2957.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-7" class="slide level1 whitetext" data-background="images/IMG_3200.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-8" class="slide level1 whitetext" data-background="images/IMG_3208.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-9" class="slide level1 whitetext" data-background="images/IMG_3377.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-10" class="slide level1 whitetext" data-background="images/IMG_3388.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-11" class="slide level1 whitetext" data-background="images/IMG_3650.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-12" class="slide level1 whitetext" data-background="images/IMG_3900.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-13" class="slide level1 whitetext" data-background="images/IMG_4817.JPG" data-background-size="contain">
-<h1></h1>
-</section>
-<section id="section-14" class="slide level1 whitetext" data-background="images/txl_005.jpg" data-background-size="contain">
-<h1></h1>
-</section>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+AH's Galleries            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="./category/photography.html">Photography</a>
+                        </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-  </div>
+</div> <!-- /.navbar -->
 
-  <script src="reveal.js/lib/js/head.min.js"></script>
-  <script src="reveal.js/js/reveal.min.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
 
-  <script>
+    <section id="content">
+        <article>
+            <div class="entry-content">
+                <div id="photos" style="visibility: hidden;">
+                    <ul>
+<li>
+<p><a href="images/eine-seerose-4b3d0ec2-ff90-4cb3-8808-5ec2ae6e04bd.jpg">a flower</a></p>
+</li>
+<li>
+<p><a href="images/IMG_3650.JPG">under water, crabby</a></p>
+</li>
+<li>
+<p><a href="images/IMG_3377.JPG">under water, spikey</a></p>
+</li>
+<li>
+<p><a href="images/IMG_3339.JPG">in the field, spikey</a></p>
+</li>
+<li>
+<p><a href="images/aus2_009.jpg">opera in sydney</a></p>
+</li>
+<li>
+<p><a href="images/IMG_0757.JPG">rope for a boat</a></p>
+</li>
+<li>
+<p><a href="images/IMG_0553.JPG">sky over berlin</a></p>
+</li>
+<li>
+<p><a href="images/IMG_2808.JPG">roof over berlin</a></p>
+</li>
+<li>
+<p><a href="images/IMG_3200.JPG">nemo found?</a></p>
+</li>
+<li>
+<p><a href="images/txl_003.jpg">dawn at tegel airport</a></p>
+</li>
+<li>
+<p><a href="images/IMG_1071.JPG">falling leaves</a></p>
+</li>
+<li>
+<p><a href="images/IMG_3208.JPG">coral from a different world</a></p>
+</li>
+<li>
+<p><a href="images/IMG_2957.JPG">table closeup</a></p>
+</li>
+<li>
+<p><a href="images/IMG_4885.JPG">twilight of the gods</a></p>
+</li>
+<li>
+<p><a href="images/IMG_4556.JPG">void?</a></p>
+</li>
+</ul>
+                </div>
 
-      // Full list of configuration options available here:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
-        backgroundTransition: 'slide', // default/cube/page/concave/zoom/linear/fade/none
+                <div id="prevthumb"></div>
+                <div id="nextthumb"></div>
 
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
-//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
-]});
-    </script>
-  </body>
+                <!--
+                <a id="prevslide" class="load-item fa fa-3x fa-chevron-circle-left"></a>
+                <a id="nextslide" class="load-item fa fa-3x fa-chevron-circle-right"></a>
+
+                <div id="thumb-tray" class="load-item">
+                    <div id="thumb-back"></div>
+                    <div id="thumb-forward"></div>
+                </div>
+                -->
+
+                <div id="progress-back" class="load-item">
+                    <div id="progress-bar"></div>
+                </div>
+
+                <div id="controls-wrapper" class="load-item">
+                    <div id="controls">
+                        <a id="play-button"><img id="pauseplay" src="theme/img/pause.png"/></a>
+                        <div id="slidecounter">
+                            <span class="slidenumber"></span> / <span class="totalslides"></span>
+                        </div>
+                        <div id="slidecaption"></div>
+                        <a id="tray-button"><img id="tray-arrow" src="theme/img/button-tray-up.png"/></a>
+                        <ul id="slide-list"></ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.entry-content -->
+
+            <script type="text/javascript">
+                var slides = [];
+                $("#photos a").each(function() {
+                    var $this = $(this);
+                    var obj = {};
+                    obj.image = $this.attr('href');
+                    obj.title = $this.text();
+                    slides.push(obj);
+                });
+                jQuery(function($){
+                    $.supersized({
+                        slide_interval          : 3000,     // Length between transitions
+                        transition              : 1,        // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                        transition_speed        : 700,      // Speed of transition
+                        slide_links             : 'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                        slides: slides,
+                    });
+                });
+            </script>
+
+        </article>
+    </section>
+
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+</body>
 </html>
