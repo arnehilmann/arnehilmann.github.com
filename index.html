@@ -10,11 +10,22 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <style type="text/css">
+      html {
+        height: 100%;
+      }
       body {
         padding-top: 20px;
         padding-bottom: 40px;
         font-family: "Ubuntu", sans-serif;
-        background-image: url(img/bg.png);
+        #background-image: url(img/bg.png);
+        background: -webkit-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* IE10 */
+        background:      -o-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Opera 11.10+ */
+        background:         linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* W3C */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
       }
       .container-narrow {
         margin: 20px auto;
