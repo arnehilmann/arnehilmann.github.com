@@ -9,7 +9,6 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=PT+Serif|Libre+Baskerville' rel='stylesheet' type='text/css'>
     <style type="text/css">
       html {
         height: 100%;
@@ -17,30 +16,28 @@
       body {
         padding-top: 20px;
         padding-bottom: 40px;
-        font-family: "Libre Baskerville", "PT Serif", serif;
-        #font-family: "Ubuntu", sans-serif;
+        font-family: "Ubuntu", sans-serif;
+        background: -webkit-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* IE10 */
+        background:      -o-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Opera 11.10+ */
+        background:         linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* W3C */
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
-        color: #333;
-        background-color: #ddd;
       }
       .container-narrow {
         margin: 20px auto;
         padding: 20px 20px;
         max-width: 500px;
-        #background-color: white;
+        background-color: white;
       }
       .container-narrow > hr {
         margin: 30px 0;
       }
       h1 {
-        font-size: 44px;
+        font-size: 32px;
         line-height: 1.2;
-      }
-      img {
-        border: 1pt solid white;
-        margin-bottom: 1em;
       }
       .nav-stacked {
         font-size: 21px;
@@ -51,45 +48,20 @@
       .keywords li {
         font-size: 24px;
         line-height: 1.2;
-        margin-bottom: 1ex;
       }
-      .nav-tabs.nav-stacked > li > a {
-        border: 0;
-        padding-left: 0;
+      .nav-tabs.nav-stacked > li:first-child > a {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
       }
-      .keywords .newthought {
-        font-size: 16px;
-        font-variant: small-caps;
+      .nav-tabs.nav-stacked > li:last-child > a {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
       }
-      a {
-        font-size: 20px;
-        /*  shadows render better in certain browsers than text, first rule is for older browser support  */
-        color: #336;
-        color: transparent;
-        text-shadow: 0 0 #336, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
-        /*  gradient background allows us to use css only & re-position it  */
-        background: -webkit-linear-gradient(#999, #999) center 1.09em no-repeat;
-        background: linear-gradient(#999, #999) center 1.09em no-repeat;
-        /*  can precisely control size in relation to the text  */
-        background-size: 95% 1px;
-        /*  now the underline supports transitions  */
-        -webkit-transition: .2s ease;
-        transition: .2s ease;
-      }
-
-      a:hover {
-        /*  backgrounds won't size larger than 100%  */
-        color: #336;
-        background-size: 85% 1px;
-        text-decoration: none;
-      }
-
-      .links {
-        margin-left: 0;
-      }
-      .links li {
-        list-style-type: none;
-        line-height: 1.6;
+      .icon-chevron-right {
+        float: right;
+        margin-right: -6px;
+        margin-top: 2px;
+        opacity: 0.25;
       }
     </style>
 
@@ -112,35 +84,39 @@
   <body>
 
     <div class="container-narrow">
-      <h1>Arne Hilmann</h1>
       <img src="img/arne-hilmann.jpg"/>
+      <h1>Arne Hilmann</h1>
 
       <div>
         <ul class="unstyled keywords">
           <li>Software engineering enthusiast</li>
           <li>Lateral thinker</li>
-          <li class="newthought">Solving problems applying IT Automation, Virtualization, DevOps, Python, Linux</li>
         </ul>
       </div>
 
       <div class="row-fluid">
-        <ul class="links">
-          <li>
-            <a href="https://github.com/arnehilmann">
-              my github projects
-            </a>
-          </li>
-          <li>
-            <a href="https://www.xing.com/profile/Arne_Hilmann">
-              my xing profile
-            </a>
-          </li>
-          <li>
-            <a href="photos/AH Fotografie/index.html">
-              some of my photos
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul class="nav nav-tabs nav-stacked">
+            <li>
+              <a href="https://github.com/arnehilmann">
+                <i class="icon-chevron-right"></i>
+                github
+              </a>
+            </li>
+            <li>
+              <a href="https://www.xing.com/profile/Arne_Hilmann">
+                <i class="icon-chevron-right"></i>
+                xing
+              </a>
+            </li>
+            <li>
+              <a href="photos/AH Fotografie/index.html">
+                <i class="icon-chevron-right"></i>
+                photos
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
     </div>

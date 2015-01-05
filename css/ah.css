@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'texgyrescholaregular';
+    src: url('../fonts/texgyreschola-regular-webfont.eot');
+    src: url('../fonts/texgyreschola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/texgyreschola-regular-webfont.woff') format('woff'),
+        url('../fonts/texgyreschola-regular-webfont.ttf') format('truetype'),
+        url('../fonts/texgyreschola-regular-webfont.svg#texgyrescholaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: "texgyrescholaregular", serif;
+  margin: 0;
+  color: #444;
+  background-color: #ddd;
+  font-size: 24px;
+}
+
+.container-narrow {
+  margin: 20px auto;
+  padding: 20px 20px;
+  max-width: 500px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.4;
+}
+
+img {
+  border: 1px solid #999;
+  margin-bottom: 1em;
+  width: 500px;
+  height: 250px;
+}
+
+.keywords li {
+  line-height: 1.2;
+  margin-bottom: 1ex;
+}
+
+.nav-tabs.nav-stacked > li > a {
+  border: 0;
+  padding-left: 0;
+}
+
+.keywords .newthought {
+  font-variant: small-caps;
+}
+
+a {
+  color: #336;
+  color: transparent;
+  text-decoration: none;
+  font-size: 28px;
+
+  background: -webkit-linear-gradient(#336, #336) center 1.3em no-repeat;
+  background: linear-gradient(#336, #336) center 1.3em no-repeat;
+  background-size: 95% 1px;
+  line-height: 1.2;
+
+  text-shadow: 0 0 #336, 2px 0 #ddd, -2px 0 #ddd, 0 2px #ddd;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+a:hover {
+  color: #333;
+  color: transparent;
+  text-decoration: none;
+  background-size: 75% 1px;
+}
+
+.links {
+  margin-left: 0;
+}
+.links li {
+  line-height: 1.2;
+  list-style-type: none;
+  padding-bottom: 0px;
+}
