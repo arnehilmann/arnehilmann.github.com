@@ -64,8 +64,8 @@ a {
   color: transparent;
   text-decoration: none;
 
-  background: -webkit-linear-gradient(#336, #336) center 1.2em no-repeat;
-  background: linear-gradient(#336, #336) center 1.2em no-repeat;
+  background: -webkit-linear-gradient(#336, #336) center 1.3em no-repeat;
+  background: linear-gradient(#336, #336) center 1.3em no-repeat;
   background-size: 95% 1px;
   line-height: 1.2;
 
