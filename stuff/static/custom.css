@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'texgyrescholaregular';
+  src: url('../../fonts/texgyreschola-regular-webfont.eot');
+  src: url('../../fonts/texgyreschola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/texgyreschola-regular-webfont.woff') format('woff'),
+      url('../../fonts/texgyreschola-regular-webfont.ttf') format('truetype'),
+      url('../../fonts/texgyreschola-regular-webfont.svg#texgyrescholaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "texgyrescholaregular", serif;
+  color: #444;
+  background-color: #ddd;
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, .8);
+  border-bottom: 1px solid white;
+}
+
+article #progress-back {
+  height: 2px;
+}
+
+article #progress-bar {
+  height: 2px;
+}
