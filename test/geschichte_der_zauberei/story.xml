@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<article lang="en">
+<articleinfo>
+    <date>2018-04-27</date>
+</articleinfo>
+<simpara>&#8594; start</simpara>
+<section id="_start">
+<title>start</title>
+<simpara>Es kommt immer näher!
+Ich taste mich durch die Dunkelheit, rutsche auf den feuchten Steinen aus, halt mich an alten Wurzeln fest.
+"Wie bin ich hierher gekommen?"
+Und: "Was ist das da hinter mir?!?"</simpara>
+<simpara>&#8594; bleiben_oder_weiter</simpara>
+</section>
+<itemizedlist>
+<listitem>
+<simpara>
+Ich bleibe stehen, komme ein wenig zu Atem und lausche.
+    Das Schnaufen und Kratzen kommt immer näher. Ich habe Angst!
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Ich ziehe meinen Zauberstab: "LUMOS!"
+    Ein triumphales Brüllen hinter mir läßt mich das Licht schnell wieder ausmachen.
+    Ich habe Angst!
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Ich haste weiter.  &#8594; weiter
+</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+&#8594; bleiben_oder_weiter
+</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<simpara>Da! Vor mir, ein Feuerschein! Das muss die Lichtung sein&#8230; dort bin ich vor Stunden aufgebrochen, um &#8230;
+ja, warum nur? Und wer oder was ist dort auf dieser Lichtung?</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+Ich nähere mich langsam der Lichtung.
+    Da ist es wieder, das Schnaufen&#8230; und es ist viel näher, als ich dachte!
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+*   Ich renne los.
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+*   Ich wechsel die Richtung[!], gehe ein Stück seitlich weiter.  &#8594; seitlich
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Ich laufe in Richtung Feuerschein.
+</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+&#8594; lichtung
+</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<simpara>Ich stolpere auf die Lichtung, rappel mich auf, erreiche das Feuer.
+*   [&#8230;]
+-</simpara>
+<simpara>TOD-ESSER!
+ÜBERALL TOD-ESSER!
+Oh nein&#8230; Ich&#8230; das ist&#8230; eine Falle&#8230;
+☠
+&#8594; END</simpara>
+<simpara>Da! Eine Bewegung auf der Lichtung&#8230; das Schnaufen ist ganz nah.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+Ich renne auf die Lichtung. &#8594; lichtung
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Ich bezwinge meine Angst und warte[.], das Schnaufen nun direkt neben mir.
+</simpara>
+</listitem>
+</itemizedlist>
+<simpara>-
+<emphasis>HARRY!</emphasis>
+<emphasis>Wieso rennst du vor mir davon!</emphasis>
+Das ist doch &#8230;</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+Hagrid[?]! Du warst das die ganze Zeit hinter mir?
+-
+"Ja natürlich. Wir wollten doch Grawp besuchen, als plötzlich überall diese Tod-Esser auftauchten."
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+"Tod-Esser?"
+-
+"An die kann ich mich nicht erinnern&#8230; auch an das mit Grawp nicht&#8230;?!"
+Hagrid: "Nicht verwunderlich, schliesslich hat dich die Explosion ganz schön durch die Luft gewirbelt.
+Hatte schon Angst um dich&#8230; Aber als du dann plötzlich losgerannt bist, hab ich mir erst einmal nicht viel dabei gedacht."
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+"Explosion? Und dann?"[] Mein Kopf tut weh.
+-
+Hagrid: "Das ist jetzt nicht so wichtig! Wichtig ist, dass dieses Pack die Lichtung gefunden hat und unsere Sachen jetzt durchwühlt."
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Das können wir nicht zulassen[!], los, greifen wir sie an!
+    Hagrid: "Das geht nicht, nicht in deinem Zustand. Lass uns lieber so schnell wie möglich zur Schule zurückgehen und die anderen warnen."
+    "Du hast recht&#8230;" mein Kopf tut immer noch weh. "&#8230; aber das werden sie bezahlen, eines Tages."
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Lieber zurück zur Schule[!], die anderen warnen.
+</simpara>
+</listitem>
+</itemizedlist>
+<simpara>-</simpara>
+<simpara>Der Kampf gegen die Tod-Esser geht weiter&#8230; ein andermal.
+&#8594; END</simpara>
+</article>

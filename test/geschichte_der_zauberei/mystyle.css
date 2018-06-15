@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "hp";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/hp.ttf") format('truetype');
+}
+
+h1 {
+    font-family: "hp";
+    font-size: 48pt;
+}
+h2 {
+    font-family: "hp";
+    font-size: 24;
+    text-align: right;
+}
