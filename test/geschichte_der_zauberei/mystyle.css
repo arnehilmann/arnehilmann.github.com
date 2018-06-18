@@ -14,3 +14,7 @@ h2 {
     font-size: 24;
     text-align: right;
 }
+
+p.choice {
+    text-align: left;
+}
