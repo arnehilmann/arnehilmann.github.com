@@ -9,6 +9,13 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/EBGaramond12-Regular.ttf") format('truetype');
+}
+
 html {
   height: 100%;
 }
@@ -16,10 +23,11 @@ html {
 body {
   padding-top: 20px;
   padding-bottom: 40px;
-  font-family: "texgyrescholaregular", serif;
+  /*font-family: "texgyrescholaregular", serif;*/
+  font-family: "EB Garamond", serif;
   margin: 0;
-  color: #444;
-  background-color: #ddd;
+  color: #333;
+  background-color: #eee;
   font-size: 24px;
 }
 
@@ -41,8 +49,11 @@ h1 {
 img {
   border: 1px solid #999;
   margin-bottom: 1em;
-  width: 500px;
-  height: 250px;
+  max-width: 500px;
+  max-height: 250px;
+  display: block;
+  width: auto;
+  height: auto;
 }
 
 .keywords li {
@@ -60,7 +71,9 @@ img {
 }
 
 a {
-  color: #336;
+  color: #339;
+  text-decoration: underline;
+  /*
   color: transparent;
   text-decoration: none;
 
@@ -72,14 +85,17 @@ a {
   text-shadow: 0 0 #336, 2px 0 #ddd, -2px 0 #ddd, 0 2px #ddd;
   -webkit-transition: .2s ease;
   transition: .2s ease;
+  */
 }
 
+/*
 a:hover {
   color: #333;
   color: transparent;
   text-decoration: none;
   background-size: 75% 1px;
 }
+*/
 
 .links {
   margin-left: 0;
