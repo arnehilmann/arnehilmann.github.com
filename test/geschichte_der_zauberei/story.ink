@@ -33,6 +33,8 @@ Ihr Mut und ihre Tapferkeit, mit der sie ihren Häschern entgegentrat auf ihrer 
 Versuchen Sie, ebenso tapfer und mutig zu sein wie Alberta, und auch in größter Gefahr stets die richtigen Entscheidungen zu treffen!
 
 +   [weiter...]
+    Alberta betritt den grossen Festsaal, durchnäßt und außer Atem...
+
     -> start
 
 = erwischt
@@ -46,14 +48,12 @@ ICH - ICH KANN NICHT - WOHIN???
 
 
 = start
-Diese verflixten Trolle!  Wieso kann ich sie nicht abschütteln?
-Seit Hogsmead sind sie mir auf den Fersen!
+"Diese verflixten Trolle!  Wieso kann ich sie nicht abschütteln?
+Seit Hogsmead sind sie mir auf den Fersen!"
+"Ich kann nicht mehr... meine Beine tun weh... *hust*"
 +   [weiter...]
 -
-Ich kann nicht mehr... meine Beine tun weh, ich bin komplett außer Atem...
-+   [weiter...]
--
-Und wo ist dieser Wahrsagerturm? Ich muss dorthin... irgendwo weiter oben...
+"Und wo ist dieser Wahrsagerturm? Ich muss dorthin... irgendwo weiter oben..."
 +   [weiter...]
 -
 "Wow: Ist das der berühmte Festsaal von Hogwarts?"
