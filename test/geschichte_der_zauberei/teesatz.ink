@@ -3,14 +3,15 @@
 -> intro
 
 = falsch
-Dies ist leider total falsch! Bitte beginnen Sie von vorne!
+Dies ist leider <b>total</b> falsch! Bitte beginnen Sie von vorne!
+<p style="padding-top: 8em;">&nbsp;</p>
 -> intro
 
 = intro
 
 <b>Teesatz</b>
 
-+   Im Wahrsagerturm[] wird viel Wert auf das Erkennen von Mustern, Hinweisen und Visionen gelegt.
++   Im Wahrsagerturm[...] wird viel Wert auf das Erkennen von Mustern, Hinweisen und Visionen gelegt.
 -
 Speziell in Teesätzen wird, unter Anleitung erfahrener Wahrsagerinnen und Wahrsager, nach derartigen Erkenntnissen gesucht.
 Interpretieren Sie bitte die nun folgenden, absolut eindeutig erkennbaren Teesätze:
