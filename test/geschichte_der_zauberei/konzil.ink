@@ -1,6 +1,10 @@
 ==== konzil ====
 
 = ersteFrage
+
+<b>Hexenkonzil</b>
+<span style="font-size:8pt;">(Konzil = Versammlung)</span>
+
 Frage: In welchem Jahr fand das 3. Sizilianische Hexenkonzil statt?
 
 +   987
@@ -35,27 +39,24 @@ Die übereinstimmende Vision besagte, dass nur einer der Beschuldigten vor Geric
 +   [weiter...]
 -
 
-Die Aussagen der Beschuldigten Adams, Bertrand und Charles waren wie folgt:
-Adams beschuldigte Bertrand.
-Bertrand behauptete, Adams lügt.
-Charles bestritt jegliche Schuld.
+Die Aussagen der Beschuldigten (nennen wir sie der Einfachheit halber  A, B und C) waren wie folgt:
+A beschuldigt B.
+B behauptet, A lügt.
+C bestreitet jegliche Schuld.
 
 +   [weiter...]
 -
-Frage: Wer hatte nun Schuld und welcher der Beschuldigten sparch die Wahrheit?
-+   Adams / Bertrand
-+   Adams / Charles
-+   Bertrand / Adams
-+   Bertrand / Charles
-    -> richtig
-+   Charles / Adams
-+   Charles / Bertrand
+Frage: Wer hatte nun, gemäß der Visionen, Schuld und welcher der Beschuldigten sparch die Wahrheit?
++   A / B
++   A / C
++   B / A
++   B / C
+    -> auszeichnung ->->
++   C / A
++   C / B
 -
 Dies ist leider nicht richtig!
 
 Arbeiten Sie das Kapitel am besten nochmal durch...
 
 -> ersteFrage
-
-= richtig
--> auszeichnung ->->

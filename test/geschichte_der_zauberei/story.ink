@@ -2,19 +2,14 @@ INCLUDE konzil.ink
 INCLUDE flucht.ink
 INCLUDE teesatz.ink
 
--> einfuehrung
-
-
-<b>Shortcuts</b>
-
-+   regulärer Start
-+   Konzil
-    -> konzil
-+   Flucht
-    -> flucht
-+   Teesatz lesen
++   [<b>regulärer Start</b>]
++   [<b>Shortcut - Konzil</b>]
+    -> konzil -> flucht -> teesatz -> ende
++   [<b>Shortcut - Flucht</b>]
+    -> flucht -> teesatz -> ende
++   [<b>Shortcut - Teesatz</b>]
     -> teesatz -> ende
-+   Ende
++   [<b>Shortcut - Ende</b>]
     -> ende
 -
 
@@ -50,6 +45,11 @@ Gehen Sie besonnen und überlegt mit der neuen Technik um (ggf. sollten Sie sich
 -> konzil -> flucht -> teesatz -> ende
 
 ==== ende ====
+Hiermit endet diese interaktive Lehrstunde zur
+<b>Geschichte der Zauberei - EDV Version</b>.
+
+<p style="padding-top: 4em;">&nbsp;</p>
+
 8325
 
 -> DONE

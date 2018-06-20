@@ -2,6 +2,8 @@
 
 = intro
 
+<b>Auf der Flucht</b>
+
 Seit jeher gilt die Flucht der Alberta Hoffstadter im Jahre 1388 vor den abtrünnigen Trollen als die verwegendste und geschickteste in der jüngeren Geschichte der Zauberei.
 Ihr Weg führte sie auch durch die damals noch junge Hogwarts - Schule für Zauberei, genauer gesagt in den Turm der Wahrsagung.
 Ihr Mut und ihre Tapferkeit, mit der sie ihren Häschern entgegentrat auf ihrer Suche nach Antworten, sind noch heute Vorbild und Inspiration ganzer Generationen junger Zauberinnen und Zauberer.
