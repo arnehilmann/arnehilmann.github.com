@@ -21,42 +21,42 @@ Interpretieren Sie bitte die nun folgenden, absolut eindeutig erkennbaren Teesä
 
 <p style="padding-top: 4em;">&nbsp;</p>
 
-<img src="assets/IMG_14251.JPG" width="400"></img>
+<img src="assets/IMG_14251.JPG" width="400" height="267"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
 +   unleserlich
     -> falsch
 -
-<img src="assets/Read-Your-Tea-Leaves.jpg" width="400"></img>
+<img src="assets/Read-Your-Tea-Leaves.jpg" width="400" height="282"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
     -> falsch
 +   unleserlich
 -
-<img src="assets/IMG_14251-2.JPG" width="400"></img>
+<img src="assets/IMG_14251-2.JPG" width="400" height="267"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
 +   unleserlich
     -> falsch
 -
-<img src="assets/Tea-Leaves.jpg" width="400"></img>
+<img src="assets/Tea-Leaves.jpg" width="400" height="400"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
     -> falsch
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
 +   unleserlich
 -
-<img src="assets/maxresdefault-2.jpg" width="400"></img>
+<img src="assets/maxresdefault-2.jpg" width="400" height="225"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
 +   unleserlich
     -> falsch
 -
-<img src="assets/smiles.jpg" width="400"></img>
+<img src="assets/smiles.jpg" width="400" height="300"></img>
 +   "Die Zukunft wird Schlimmes bringen!"
 +   "Sie werden Erfolg haben!"
 +   "Jemand wird sterben!!!"
