@@ -2,6 +2,8 @@ INCLUDE konzil.ink
 INCLUDE flucht.ink
 INCLUDE teesatz.ink
 
+-> einfuehrung
+
 +   [<b>regulärer Start</b>]
 +   [<b>Shortcut - Konzil</b>]
     -> konzil -> flucht -> teesatz -> ende
@@ -50,6 +52,6 @@ Hiermit endet diese interaktive Lehrstunde zur
 
 <p style="padding-top: 4em;">&nbsp;</p>
 
-8325
+1 _ _ _
 
 -> DONE

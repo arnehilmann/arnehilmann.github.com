@@ -35,6 +35,10 @@ p.choice a {
     padding-bottom: 4em;
 }
 
+p.show, p.show a {
+    color: #222;
+}
+
 p.show b {
     font-family: "hp";
     font-size: 24pt;
